@@ -9,8 +9,11 @@ typedef std::function<void()> task_t;
 class thread_pool{
  public:
   thread_pool(std::size_t nb_threads);
+  ~thread_pool(void);
   void add_task(task_t new_task);
+  void stop();
  private:
+  bool should_stop;
   std::vector<std::thread> workers;
   std::queue<task_t> tasks;
   void unit_run(void);
