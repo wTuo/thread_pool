@@ -1,6 +1,5 @@
 #include <thread_pool.hpp>
 
-
 namespace ttp {
 
 thread_pool::thread_pool(std::size_t nb_threads) {
@@ -47,7 +46,7 @@ thread_pool::is_running(void) const {
   return !m_should_stop;
 }
 
-//! retrieve a new task
+// retrieve a new task
 
 thread_pool::task_t
 thread_pool::fetch_task(void) {
