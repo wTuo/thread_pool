@@ -1,5 +1,5 @@
 # Description
-This is a tiny thread pool based on  C++11 new features including `std::function`, `std:: thread`, `std::bind`, `lambda` and `condition_variable`. **Only one header file and not extra dependencies**.
+This is a tiny thread pool based on  C++11 new features including `std::function`, `std::thread`, `std::bind`, `lambda` and `condition_variable`. **Only one header file and not extra dependencies**.
 
 I think its a good learning material for those who: 
 > * want to grasp C++11 new features on **threading supported at the language-level**, from simple examples 
