@@ -1,9 +1,14 @@
 # Description
-This is a tiny thread pool based on  C++11 new features including `std::function`, `std::thread`, `std::bind`, `lambda` and `condition_variable`. **Only one header file and not extra dependencies**.
+This is a tiny thread pool based on  new C++11 features including `std::function`, `std::thread`, `std::bind`, `lambda` and `condition_variable`. **Only one header file and not extra dependencies**.
+
+**This project is not a high-performance or efficient library** with complicated logic. The goal of this project is to provide a clean, beautiful and easy-to-understand thread pool implementation for beginners.
 
 I think its a good learning material for those who: 
-> * want to grasp C++11 new features on **threading supported at the language-level**, from simple examples 
-> * need a deep understanding of thread pool from a concise and clear implementation.
+> * want to grasp new C++11 features about **threading supported at the language-level**, including threading communication, from simple examples 
+> * need a deep understanding of thread pool from a concise and clear implementation
+
+For C++ beginners, this project is also useful.
+
 
 # Basic Usage
 ```C++
